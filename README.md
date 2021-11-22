@@ -2,9 +2,9 @@
 
 
 ##problem 3 :
+
 for i in range(2) :
-    temp = eval(input("enter a temperature in Celsius : "))
-        
+    temp = eval(input("enter a temperature in Celsius : "))  
     if temp < -273.15 :
         print("the temperature is invalid because it is below absolute zero")
     elif temp == 273.15 :
@@ -27,20 +27,15 @@ print("The loop is ended")
 ## Problem 4 :
 
 for i in range(2) :
-    temp = eval(input("enter a temperature in Celsius : "))
-        
+    temp = eval(input("enter a temperature in Celsius : "))   
     if temp <= 23 :
         print("the student is a freshman")
-    
     elif 24 <= temp <= 53 :
         print("they are a sophomore")
-   
     elif 54 <= temp <= 83 :
         print("Junior")
-    
     elif temp >= 84 :
-        print("Senior")
-        
+        print("Senior")      
 print("The loop is ended")
 
 
@@ -49,9 +44,7 @@ print("The loop is ended")
 ### Problem 5 : 
 
 from random import randint
-
 random_number = randint(1,10)
-
 for i in range(5) :
     num = eval(input("Guess the number : "))
     if num == random_number :
@@ -68,12 +61,10 @@ for i in range(5) :
 item = eval(input("How many items you buy : "))
 if item < 10 :
     print("A store charges $12 per item")
-    print("Total Cost : ", item*12)
-    
+    print("Total Cost : ", item*12)  
 elif item in range(10, 100) :
     print("the cost is $10 per item")
-    print("Total Cost : ", item*10)
-    
+    print("Total Cost : ", item*10)   
 elif item >= 100 :
     print("the cost is $7 per item")
     print("Total Cost : ", item*7)
